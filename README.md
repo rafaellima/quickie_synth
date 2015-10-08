@@ -1,4 +1,6 @@
-QuickieSynth
+Quickie Synth
 ============
 
-** TODO: Add description **
+An elixir-based synthesizer. To use it, you can evaluate:
+
+   QuickieSynth.Sound.play("C")
