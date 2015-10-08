@@ -1,9 +1,3 @@
-defmodule QuickieSynth.Sound do
-  def command(note) do
-    "play -qn synth 2 pluck #{note}"
-  end
-end
-
 defmodule QuickieSynth.SoundTest do
   use ExUnit.Case
   alias QuickieSynth.Sound
